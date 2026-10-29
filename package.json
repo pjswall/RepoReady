@@ -1,0 +1,24 @@
+{
+  "name": "repoready-cli",
+  "version": "0.1.0",
+  "description": "Evidence-based repository reusability assessment and coding-agent guidance",
+  "type": "module",
+  "bin": {
+    "repoready": "./bin/repoready.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "scan": "node ./bin/repoready.js scan --path ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ]
+}
